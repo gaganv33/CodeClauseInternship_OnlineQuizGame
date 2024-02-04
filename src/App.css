@@ -1,0 +1,60 @@
+.app{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  max-height: 80vh;
+}
+
+.mainContainer{
+  display: block;
+  justify-content: center;
+  align-items: center;
+  word-break: break-all;
+  width: 100vh;
+  gap: 1rem;
+}
+
+.start{
+  border: none;
+  background-color: rgb(93, 91, 91);
+  width: 6rem;
+  height: 3rem;
+  border-radius: 1rem;
+  border: 0.1rem solid rgb(143, 140, 140);
+  color: white;
+  font-weight: 500;
+}
+
+.startContainer{
+  text-align: center;
+  width: 100%;
+}
+
+.result{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.resetButton{
+  border: none;
+  padding: 0.5rem;
+  background-color: rgb(114, 112, 112);
+  border: 0.1rem solid rgb(199, 197, 197);
+  width: 6rem;
+  border-radius: 1rem;
+  color: white;
+}
+
+.endButton{
+  border: none;
+  padding: 0.5rem;
+  background-color: rgb(114, 112, 112);
+  border: 0.1rem solid rgb(199, 197, 197);
+  width: 8rem;
+  border-radius: 1rem;
+  color: white;
+}
